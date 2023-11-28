@@ -62,10 +62,14 @@ h1{
 img {width: 100px;}
 img {height: auto;}
 
-div.porfolio {
-  font-size: xx-large;
+#portfolio {
+  font-size: 45px;
 }
 
+
+
+
+ /*Java edits */
 #btn-alert {
   padding: 10px 20px;
   font-size: 9px;
