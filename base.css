@@ -68,13 +68,34 @@ div.porfolio {
 
 #btn-alert {
   padding: 10px 20px;
-  font-size: 16px;
-  background-color: rgb(152, 197, 240); 
-  color: rgb(0, 0, 0); /* White text color */
-  border: none; /* No border */
-  border-radius: 100px; /* Add some rounded corners */
+  font-size: 9px;
+  background-color: rgb(205, 46, 2); 
+  color: rgb(255, 255, 255); /* White text color */
+  border:  1; /* No border */
+  border-radius: 50px; /* Add some rounded corners */
   cursor: pointer; /* Change cursor to pointer on hover */
+  width: 60px;      /* Adjust the width */
+  height: 60px;     /* Adjust the height */
 }
 #btn-alert:hover {
-  background-color: #4578a0; /* Darker green on hover */
+  background-color: #950000; /* Darker green on hover */
+}
+
+#btn-counter {
+  padding: 10px 20px;
+  font-size: 9px;
+  background-color: rgb(66, 171, 209); 
+  color: rgb(255, 255, 255); /* White text color */
+  border:  none; /* No border */
+  border-radius: 100px; /* Add some rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  width: 80px;      /* Adjust the width */
+  height: 30px;     /* Adjust the height */
+}
+#btn-counter:hover {
+  background-color: #0f92b7; /* Darker green on hover */
+}
+
+#btnflex {
+  display: flex;
 }
