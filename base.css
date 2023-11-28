@@ -83,7 +83,7 @@ div.porfolio {
 
 #btn-counter {
   padding: 10px 20px;
-  font-size: 9px;
+  font-size: 13px;
   background-color: rgb(66, 171, 209); 
   color: rgb(255, 255, 255); /* White text color */
   border:  none; /* No border */
@@ -98,4 +98,12 @@ div.porfolio {
 
 #btnflex {
   display: flex;
+  gap: 2%;
+  margin-top: 1%;
 }
+
+#btnflex p {
+margin: 0%;
+}
+
+

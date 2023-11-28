@@ -82,5 +82,5 @@ let count = 1;
 
 document.getElementById('btn-counter').onclick = () => {
     count = count + 1;
-    document.getElementById('txt-counter').innerHTML = '#: ' + count;
+    document.getElementById('txt-counter').innerHTML = '&#10084: ' + count;
 };
