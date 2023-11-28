@@ -65,3 +65,16 @@ img {height: auto;}
 div.porfolio {
   font-size: xx-large;
 }
+
+#btn-alert {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: rgb(152, 197, 240); 
+  color: rgb(0, 0, 0); /* White text color */
+  border: none; /* No border */
+  border-radius: 100px; /* Add some rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+#btn-alert:hover {
+  background-color: #4578a0; /* Darker green on hover */
+}

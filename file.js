@@ -56,8 +56,23 @@ while (j<nameList.length) {
 
 
 
-
+// footer year
 const d = new Date();
 let year = d.getFullYear();
 document.getElementById("year").innerHTML = year;
-console.log(d, year);
+
+
+// button
+var btnAlert = document.getElementById("btn-alert");
+btnAlert.addEventListener("click", function() {
+ alert("Told you not to...");
+});
+
+//button hover
+document.getElementById('btn-alert').onmouseover = () => {
+    document.getElementById('btn-alert').innerText = 'Do Not Click';
+};
+
+document.getElementById('btn-alert').onmouseleave = () => {
+    document.getElementById('btn-alert').innerText = 'Do Not Click';
+};
