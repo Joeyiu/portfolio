@@ -1,0 +1,133 @@
+body{
+    background-color: #D5F9FF;
+}
+
+h1{ 
+    font-family: "Quicksand", sans-serif;
+}
+
+ body { 
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-size: 18px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px;
+ } 
+   
+#about{
+  border-top: 5px solid #333; /* Specify the color and width of the top border */
+  border-bottom: 5px solid #333; /* Specify the color and width of the bottom border */
+  padding: 5px; 
+  border-radius: 5%;
+    }
+    #hobbies{
+        border: 3px solid black;
+        border-radius: 20px;
+        padding: 20px;
+       }
+       #projects{
+        border: 3px solid black;
+        border-radius: 20px;
+        padding: 20px;
+       }
+       #table{
+        border: 3px solid black;
+        border-radius: 20px;
+        padding: 20px;
+       }
+       #contacts{
+        border: 3px solid black;
+        border-radius: 20px;
+        padding: 20px;
+       }
+
+       ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 10px 10px;
+        text-decoration: none;
+      }
+      li a:hover {
+        background-color: #111;
+      }
+#logo
+img {width: 100px;}
+img {height: auto;}
+
+#portfolio {
+  font-size: 45px;
+}
+
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container img {
+  width: 100%; /* Adjust the width as needed */
+  height: auto; /* Maintain the aspect ratio */
+  margin-right: 10px;
+  border: 2px solid black
+}
+
+
+
+
+ /*Java edits */
+#btn-alert {
+  padding: 10px 20px;
+  font-size: 9px;
+  background-color: rgb(205, 46, 2); 
+  color: rgb(255, 255, 255); /* White text color */
+  border:  1; /* No border */
+  border-radius: 50px; /* Add some rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  width: 60px;      /* Adjust the width */
+  height: 60px;     /* Adjust the height */
+}
+#btn-alert:hover {
+  background-color: #950000; /* Darker green on hover */
+}
+
+#btn-counter {
+  padding: 10px 20px;
+  font-size: 13px;
+  background-color: rgb(66, 171, 209); 
+  color: rgb(255, 255, 255); /* White text color */
+  border:  none; /* No border */
+  border-radius: 100px; /* Add some rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  width: 80px;      /* Adjust the width */
+  height: 30px;     /* Adjust the height */
+}
+#btn-counter:hover {
+  background-color: #0f92b7; /* Darker green on hover */
+}
+
+#btnflex {
+  display: flex;
+  gap: 2%;
+  margin-top: 1%;
+}
+
+#btnflex p {
+margin: 0%;
+}
+
+
+.even {
+  color: #fd0808; /* Light blue color for even rows */
+}
+
+.odd {
+  color: #ff00c3; /* Light red color for odd rows */
+}
