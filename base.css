@@ -15,26 +15,31 @@ h1{
   border-bottom: 5px solid #333; /* Specify the color and width of the bottom border */
   padding: 5px; 
   border-radius: 5%;
+  background-color: #edfcfe;
     }
     #hobbies{
         border: 3px solid black;
         border-radius: 20px;
         padding: 20px;
+        background-color: #edfcfe;
        }
        #projects{
         border: 3px solid black;
         border-radius: 20px;
         padding: 20px;
+        background-color: #edfcfe;
        }
        #table{
         border: 3px solid black;
         border-radius: 20px;
         padding: 20px;
+        background-color: #edfcfe;
        }
        #contacts{
         border: 3px solid black;
         border-radius: 20px;
         padding: 20px;
+        background-color: #edfcfe;
        }
 
        ul {
@@ -60,7 +65,7 @@ h1{
         background-color: #111;
       }
 #logo
-img {width: 100px;}
+img {width: 15%;}
 img {height: auto;}
 
 #portfolio {
