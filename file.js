@@ -83,4 +83,12 @@ let count = 1;
 document.getElementById('btn-counter').onclick = () => {
     count = count + 1;
     document.getElementById('txt-counter').innerHTML = '&#10084: ' + count;
+    if (count % 2 === 0) {
+        document.getElementById('txt-counter').classList.remove('odd');
+        document.getElementById('txt-counter').classList.add('even');
+      } else {
+        document.getElementById('txt-counter').classList.remove('even');
+        document.getElementById('txt-counter').classList.add('odd');
+      }
 };
+

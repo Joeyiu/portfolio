@@ -11,9 +11,10 @@ h1{
  } 
    
 #about{
-     border: 3px solid black;
-     border-radius: 20px;
-     padding: 20px;
+  border-top: 5px solid #333; /* Specify the color and width of the top border */
+  border-bottom: 5px solid #333; /* Specify the color and width of the bottom border */
+  padding: 5px; 
+  border-radius: 5%;
     }
     #hobbies{
         border: 3px solid black;
@@ -67,6 +68,18 @@ img {height: auto;}
 }
 
 
+.flex-container {
+  display: flex;
+}
+
+.flex-container img {
+  width: 100%; /* Adjust the width as needed */
+  height: auto; /* Maintain the aspect ratio */
+  margin-right: 10px;
+  border: 2px solid black
+}
+
+
 
 
  /*Java edits */
@@ -111,3 +124,10 @@ margin: 0%;
 }
 
 
+.even {
+  color: #fd0808; /* Light blue color for even rows */
+}
+
+.odd {
+  color: #ff00c3; /* Light red color for odd rows */
+}
