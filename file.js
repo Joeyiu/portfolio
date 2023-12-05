@@ -70,12 +70,13 @@ btnAlert.addEventListener("click", function() {
 
 //button hover
 document.getElementById('btn-alert').onmouseover = () => {
-    document.getElementById('btn-alert').innerText = 'Do Not Click';
+    document.getElementById('btn-alert').innerText = `DON'T DO IT`;
 };
 
 document.getElementById('btn-alert').onmouseleave = () => {
     document.getElementById('btn-alert').innerText = 'Do Not Click';
 };
+
 
 //button counter
 let count = 1;

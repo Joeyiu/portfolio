@@ -97,9 +97,11 @@ img {height: auto;}
   cursor: pointer; /* Change cursor to pointer on hover */
   width: 60px;      /* Adjust the width */
   height: 60px;     /* Adjust the height */
+  text-align: center;
 }
 #btn-alert:hover {
   background-color: #950000; /* Darker green on hover */
+  text-align: center;
 }
 
 #btn-counter {
